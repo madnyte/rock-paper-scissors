@@ -1,0 +1,24 @@
+// Fonts
+$font-family: "" san-serif;
+$font-weight-600: 600;
+$font-weight-700: 700;
+
+// background
+$background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+
+// Colors
+
+$dark-text: hsl(229, 25%, 31%);
+$score-text: hsl(229, 64%, 46%);
+$header-outline: hsl(217, 16%, 45%);
+
+$scissors: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+$paper: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+$rock: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+$lizard: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+$cyan: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+
+// screen size or breakpoints
+$m: 43.75em; //medium
+$l: 62.5em; //large
+$xl: 87.5em; //extra large

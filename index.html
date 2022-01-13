@@ -1,0 +1,64 @@
+<!--
+	TODO add winner waves
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+		<link rel="stylesheet" href="./dist/style.css" />
+		<script src="./utils.js" defer></script>
+		<script src="./index.js" defer></script>
+	</head>
+	<body>
+		<main>
+			<div class="score">
+				<div class="logo">
+					<img src="./images/logo.svg" alt="Rock,Paper,Scissors Logo" />
+				</div>
+				<div class="score-card">
+					<h3>SCORE</h3>
+					<span>0</span>
+				</div>
+			</div>
+
+			<div class="container">
+				<img src="./images/bg-triangle.svg" alt="triangle" />
+				<div class="circle-container paper">
+					<div class="circle-shadow inner-circle">
+						<img src="./images/icon-paper.svg" alt="paper" />
+					</div>
+				</div>
+
+				<div class="circle-container scissors">
+					<div class="circle-shadow inner-circle">
+						<img src="./images/icon-scissors.svg" alt="scissors" />
+					</div>
+				</div>
+
+				<div class="circle-container rock">
+					<div class="circle-shadow inner-circle">
+						<img src="./images/icon-rock.svg" alt="rock" />
+					</div>
+				</div>
+			</div>
+
+			<div class="rules">RULES</div>
+
+			<div class="hidden modal">
+				<div class="modal-content">
+					<div class="modal-nav">
+						<h2>RULES</h2>
+						<img class="modal-close" src="./images/icon-close.svg" alt="close rules" />
+					</div>
+					<img src="./images/image-rules.svg" alt="rock, paper, rules" />
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
